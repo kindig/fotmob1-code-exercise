@@ -1,0 +1,7 @@
+Issues I encountered during this exercise.
+
+1. I could not get the chromedriver to sync with my version of chrome. The subversions were (chromedriver).77 and (chrome).178.
+2. I could not get junit.cucumber to run with CucumberOptions, hence I could not export the final reports to /target/myreport.
+   This is disappointing as it was requested.
+3. 2. has something to do with org.junit.jupiter.api.extension.ExtendWith() where I could not sort out the required argument for the input class. 
+   e.g. Cucumber.class did not work.
